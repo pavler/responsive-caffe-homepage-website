@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEDER*/
+
+header{
+    display: flex; 
+}
+header nav {
+    width: 100%;
+    background: #CABDB8;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+}
+header ul li {
+    list-style: none;
+    left: 28%;
+   
+    margin-left: 15px;
+    margin-right: 15px;
+}
+header ul li a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Lato', arial, sans-serif;
+    padding: 20px 0 20px 0;
+    
+}
+header ul li a:hover{
+    opacity: 1;
+    color: rgb(121, 107, 71);
+    text-decoration: none; 
+}
+.image{
+    padding-top: 200px ;
+    margin : 0;
+    background: url(/Images/pic1.png) no-repeat center;
+    width: 100%;
+    box-sizing: border-box;   
+}
+
+
+.img-text{
+    text-align: center;
+    margin:0;
+    padding-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(119, 119, 119);
+    font-size: 7px;
+    letter-spacing: 2px;
+    text-transform: uppercase;    
+}
+.centerd-image{
+    background: url(/Images/img2.png) no-repeat center;
+    padding-top: 500px;
+    margin: auto;
+    margin-bottom: 22px;
+}
+
+
+/*
+.menu-btm{
+    width: 160px;
+    padding: 15px;
+    background-color: #CABDB8;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.menu-btm h1{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+}*/
+
+
+/* meni dugme*/
+
+.menu-btn{
+    text-align: center;
+}
+
+.menu-btn button{
+    border: none;
+    width: 160px;
+    padding: 15px;
+    background-color: #CABDB8;
+    margin: auto;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+
+
+
+/* Prva slika sa textom*/
+.flat{
+    background: url(/Images/bekary.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.flat form{
+    display: flex;
+    padding-top:80px; 
+    margin-left: 30px; 
+
+}
+.flat button{
+    border-radius: 2%;
+    border: none;
+    color: rgb(32, 26, 26);
+    background-color: #CABDB8;
+    padding: 16px;
+    width: 20%;
+    margin:0 4%;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+.flat h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(250, 239, 239);
+    width: 60%;
+    margin:0 4%;
+}
+
+/*
+.flat h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 15px ;
+    letter-spacing: 2px;      
+}
+a:link{
+    text-decoration: none;   
+}
+a:visited{
+    color: black;
+}
+
+.flat{
+    position: relative;
+}
+.flat-image img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.flat p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-family: 'Roboto',sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 1px;
+    position: absolute;
+     top: 30%;
+    left: 20%;
+    color: rgb(250, 239, 239);
+}
+.flat h1{
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    position: absolute;
+    text-decoration: none;
+    padding: 20px 35px 20px;
+
+    
+}
+.menu-btn{
+    width: 210px;
+    padding: 10px;
+    background-color: #CABDB8;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+
+}
+.menu-btn h1{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+*/
+
+/* Tri slike*/
+
+.tree-pic{
+    display: flex;
+    flex-wrap: wrap;
+    margin:  20px 0;
+   
+}
+.img-cen{
+     flex: 33.33%;
+     padding: 5px;
+}
+.tree-pic img{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+     display: block;
+}
+.tree-pic h1{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    color: inherit;
+    text-align: center;  
+}
+.tree-pic p{  
+    font-family: 'Roboto', sans-serif;
+    color: rgb(119, 119, 119);
+    font-size: 16px;
+    text-align: center;
+    padding: 0 10% 0 10%;
+}
+/*
+.caffee-img img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+   
+}
+
+
+.sub {
+    text-align: center;
+    color: rgb(5, 5, 5);
+    position: relative;
+    top: -200px;
+    color: beige;
+}
+
+.signup{
+    width: 160px;
+    padding: 13px;
+    background-color: #CABDB8;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: -200px;
+    left: 18%;
+}
+.signup h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px; 
+}
+
+.email-a{
+    position: relative;
+    top: -155px;
+    left: 20%;
+    margin: 0 auto;
+     
+    
+}
+.email-a input{
+    text-decoration: none;
+    height: 45px;
+    background: none;
+    border:1px solid rgb(245, 243, 243); 
+}
+.email-a ::placeholder{
+    
+    text-transform: capitalize;
+    color: blanchedalmond;
+}
+
+*/
+
+    /* subscribe*/
+.foot{
+    background: url("Images/coffe.jpg") no-repeat;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+}
+
+.foot h1{
+    text-align: center;
+    color: beige;
+}
+.foot p{
+    font-size: 16px;
+    text-align: center;
+    color: beige;
+}
+
+
+.foot form{
+    text-align: center;
+    margin: 20px 0;
+}
+.foot input{
+    height: 45px;
+    width: 40%;
+    margin: 0 5%;
+    background: none;
+    border:1px solid rgb(245, 243, 243); 
+}
+.foot button{
+    margin: 0 5%;
+    width: 20%;
+    height: 50px;
+    border: none;
+    background-color: #CABDB8;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+.foot ::placeholder {
+    text-transform: capitalize;
+    color: blanchedalmond;
+    
+}
+
+
+/*FOOTER*/
+.work{
+    text-align: center;
+    padding: 20px;
+}
+.work h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    padding: 20px;
+}
+.work p{
+    color: gray;
+    
+}
+.text-wrap{
+    display: flex;
+    text-align: center;
+}
+.text1{
+    padding: 2px 0px 0px 20px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+.text1 h1{
+    padding-bottom: 20px;
+}
+
+
+
+/* MEDIA*/
+@media screen and (max-width: 1050px) {
+    .tree-pic{
+        display: block;
+        
+    }
+    .img-cen{
+        padding: 20px 0;
+    }
+    .flat form{
+    display: block;
+    padding: 20px;
+    margin: 0;
+}
+
+  .flat{
+      text-align: center;
+  }
+  .flat h1{
+      font-size: 35px;
+      width: 100%;
+      margin-bottom:  22px;
+  }
+  .flat button{
+    width:20%;
+    margin: 0;
+    font-size: 12px;
+    padding: 15px;
+  }
+}
+
+  @media screen and  (max-width: 700px) { 
+    
+  .flat h1{
+      font-size: 30px;
+      width: 100%;
+      margin-bottom:  22px;
+  }
+  .flat button{
+    width:40%;
+    height: 60px;
+    font-size: 12px;
+    padding: 10px;
+ }
+    .foot button{
+    font-size: 10px;        
+    }
+    .centerd-image{
+        width: 80%;
+    }
+    .text-wrap{
+        display: block;
+    }
+
+      
+  }
+
+  @media screen and  (max-width: 360px) { 
+            .burger-nav{
+                display: block;
+                height: 40px;
+                width: 100%;
+                background: url(/Images/burger.png) no-repeat 98% center;
+                background-color: #404040;
+                cursor: pointer;
+            }
+
+            header .wraper{
+                width: 100%;
+                padding: 0;
+            }
+            header ul {
+                display: block;
+            }
+            header nav ul{
+                overflow: hidden;
+                background: #393b37;
+                height: 0;
+  
+    
+            }
+            header nav ul.open{
+                height: auto;
+            }
+            header nav ul li{
+                float: none;
+                
+                text-align: left;
+                width: 100%;
+                margin: 0;
+            }
+            header nav ul li a{
+                color:#fff;
+                padding: 10px;
+                border-bottom: 1px solid #404040;
+                display: block;
+                margin: 0;
+            }
+
+  }
+
+
+     
